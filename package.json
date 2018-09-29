@@ -1,8 +1,8 @@
 {
     "name": "yo-theme",
     "displayName": "Yo Theme",
-    "description": "Code say \"Yo!\"",
-    "version": "0.0.1",
+    "description": "Code say \"Yo!\" Dark, blue and purple theme",
+    "version": "0.9.0",
     "publisher": "yo-theme-vscode",
     "engines": {
         "vscode": "^1.27.0"
