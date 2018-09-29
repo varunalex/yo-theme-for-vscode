@@ -1,0 +1,22 @@
+{
+    "name": "yo-theme",
+    "displayName": "Yo Theme",
+    "description": "Code say \"Yo!\"",
+    "version": "0.0.1",
+    "publisher": "yo-theme-vscode",
+    "engines": {
+        "vscode": "^1.27.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Yo theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Yo theme-color-theme.json"
+            }
+        ]
+    }
+}
