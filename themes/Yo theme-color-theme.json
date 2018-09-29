@@ -151,7 +151,7 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"fontStyle": "normal",
+				// "fontStyle": "normal",
 				"foreground": "#ebfad6"
 			}
 		},
