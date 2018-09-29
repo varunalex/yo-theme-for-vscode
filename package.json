@@ -4,6 +4,7 @@
     "description": "Code say \"Yo!\" Dark, blue and purple theme",
     "version": "0.9.0",
     "publisher": "yo-theme-vscode",
+    "icon": "icon.png",
     "engines": {
         "vscode": "^1.27.0"
     },
