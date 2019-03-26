@@ -1,11 +1,9 @@
 {
 	"name": "Yo theme",
 	"type": "dark",
-	"tokenColors": [
-		{
+	"tokenColors": [{
 			"settings": {
-				"background": "#000c18",
-				"foreground": "#6688cc"
+				"foreground": "#000000"
 			}
 		},
 		{
@@ -56,7 +54,7 @@
 				"storage.modifier"
 			],
 			"settings": {
-				"foreground": "#c3a0da"
+				"foreground": "#cd82ff"
 			}
 		},
 		{
@@ -76,7 +74,7 @@
 				"keyword.other.substitution"
 			],
 			"settings": {
-				"foreground": "#0090c9"
+				"foreground": "#ff5555"
 			}
 		},
 		{
@@ -87,7 +85,7 @@
 				"markup.deleted.git_gutter"
 			],
 			"settings": {
-				"foreground": "#f07178"
+				"foreground": "#f8eb75d8"
 			}
 		},
 		{
@@ -105,12 +103,13 @@
 			}
 		},
 		{
-			"name": "Block Level Variables",
+			"name": "Block Level Variables, Inherited Class",
 			"scope": [
-				"meta.block variable.other"
+				"meta.block variable.other",
+				"entity.other.inherited-class",
 			],
 			"settings": {
-				"foreground": "#BF0B2C"
+				"foreground": "#0090c9"
 			}
 		},
 		{
@@ -120,7 +119,7 @@
 				"string.other.link"
 			],
 			"settings": {
-				"foreground": "#BF0B2C"
+				"foreground": "#d4d4d4"
 			}
 		},
 		{
@@ -136,22 +135,21 @@
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#ee5324"
+				"foreground": "#d4d4d4"
 			}
 		},
 		{
-			"name": "String, Symbols, Inherited Class, Markup Heading",
+			"name": "String, Symbols, Markup Heading",
 			"scope": [
 				"string",
 				"constant.other.symbol",
 				"constant.other.key",
-				"entity.other.inherited-class",
 				"markup.heading",
 				"markup.inserted.git_gutter",
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				// "fontStyle": "normal",
+				// "fontStyle": "italic",
 				"foreground": "#ebfad6"
 			}
 		},
@@ -241,6 +239,7 @@
 				"entity.other.attribute-name"
 			],
 			"settings": {
+				"fontStyle": "italic",
 				"foreground": "#b571e2"
 			}
 		},
@@ -709,7 +708,7 @@
 		"scrollbarSlider.background": "#1F2230AA",
 		"scrollbarSlider.hoverBackground": "#3B3F5188",
 		// Editor
-		"editor.background": "#000c18",
+		"editor.background": "#000813",
 		// "editor.foreground": "#6688cc",
 		"editorWidget.background": "#262641",
 		"editorCursor.foreground": "#ddbb88",
@@ -838,4 +837,3 @@
 		// "terminal.ansiBrightWhite": "#ffffff"
 	}
 }
-
