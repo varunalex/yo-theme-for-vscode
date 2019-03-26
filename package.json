@@ -2,7 +2,7 @@
     "name": "yo-theme",
     "displayName": "Yo Theme",
     "description": "Code say \"Yo!\" Dark, blue and purple theme",
-    "version": "0.9.2",
+    "version": "1.0.0",
     "publisher": "yo-theme-vscode",
     "icon": "icon.png",
     "repository": "https://github.com/varunalex/yo-theme-for-vscode",
