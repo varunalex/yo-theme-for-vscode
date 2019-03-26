@@ -24,7 +24,7 @@
 				"string constant.other.placeholder"
 			],
 			"settings": {
-				"foreground": "#941fe2"
+				"foreground": "#a928ff"
 			}
 		},
 		{
@@ -60,7 +60,6 @@
 		{
 			"name": "Operator, Misc",
 			"scope": [
-				"keyword.control",
 				"constant.other.color",
 				"punctuation",
 				//"meta.tag",
@@ -75,6 +74,16 @@
 			],
 			"settings": {
 				"foreground": "#ff5555"
+			}
+		},
+		{
+			"name": "keyword",
+			"scope": [
+				"keyword.control",
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#ff6565"
 			}
 		},
 		{
@@ -135,7 +144,8 @@
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#d4d4d4"
+				// "fontStyle": "bold",
+				"foreground": "#ffa733"
 			}
 		},
 		{
@@ -209,7 +219,7 @@
 				"variable.language"
 			],
 			"settings": {
-				"fontStyle": "italic",
+				"fontStyle": "bold italic",
 				"foreground": "#FF5370"
 			}
 		},
@@ -345,7 +355,7 @@
 				"source.js constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"fontStyle": "italic",
+				"fontStyle": "bold italic",
 				"foreground": "#FF5370"
 			}
 		},
@@ -355,7 +365,7 @@
 				"source.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#941fe2"
+				"foreground": "#a928ff"
 			}
 		},
 		{
@@ -373,7 +383,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#ff5420"
+				"foreground": "#fd6536"
 			}
 		},
 		{
@@ -382,7 +392,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#ff1c42"
+				"foreground": "#FF5370"
 			}
 		},
 		{
