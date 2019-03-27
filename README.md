@@ -1,6 +1,7 @@
 # README
 ## Yo Theme for VSCode
-> Dark, blue and purple theme!
+
+# This theme was merged to [Shades Of Blue](https://github.com/varunalex/shades-of-blue-vscode) theme. Please use [Shades Of Blue](https://marketplace.visualstudio.com/items?itemName=shades-of-blue.shades-of-blue) from the vscode marketplace.
 
 ### Screenshot
 ![drawing](https://raw.githubusercontent.com/varunalex/yo-theme-for-vscode/master/screencapture1.gif)
